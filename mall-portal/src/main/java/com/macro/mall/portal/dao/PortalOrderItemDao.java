@@ -12,6 +12,6 @@ import java.util.List;
 public interface PortalOrderItemDao {
     /**
      * 批量插入
-     */
+     */    
     int insertList(@Param("list") List<OmsOrderItem> list);
 }
